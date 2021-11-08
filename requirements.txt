@@ -4,3 +4,5 @@ matplotlib
 cython
 cffi
 numexpr
+pandas
+dask
