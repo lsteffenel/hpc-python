@@ -5,7 +5,7 @@ channels:
   - williamfgc
 
 dependencies:
-  - python
+  - python3
   - mpi4py 
   - matplotlib
   - numpy
@@ -16,3 +16,4 @@ dependencies:
   - numexpr
   - pandas
   - dask
+  - snakeviz
