@@ -1,17 +1,10 @@
 # Python in High Performance Computing
 
-Exercise material and model answers for the CSC course "Python in High Performance Computing". The course is part of PRACE Training activity at CSC.
+This binder image includes several exercices from the CSC course "Python in High Performance Computing". The course is part of PRACE Training activity at CSC (https://www.futurelearn.com/courses/python-in-hpc). 
 
-This master branch contains always the material for latest course, past
-courses are stored in tags.
-
-Online version of the course is run regularly in [FutureLearn](https://www.futurelearn.com/courses/python-in-hpc). 
-
-Articles and videos of the course are also available in a simple form in this [site](docs/mooc/index.md).
+Also, it includes material from a Dask tutorial given at SciPy 2020 conference.
 
 ## Exercises
-
-[General instructions](exercise-instructions.md)
 
 
 ### Basic array manipulation
@@ -43,17 +36,6 @@ Articles and videos of the course are also available in a simple form in this [s
 
  - [Using cProfile](performance/cprofile)
 
-### Optimising with Cython
-
- - [Creating simple extension](cython/simple-extension)
- - [Using static typing](cython/static-typing)
- - [Using C-functions](cython/c-functions)
- - [Optimising heat equation](cython/heat-equation)
-
-### Interfacing with libraries
-
- - [C libraries](interface/c)
-
 ### Multiprocessing
 
  - [Simple calculation](multiprocessing/simple-calculation)
@@ -66,6 +48,18 @@ Articles and videos of the course are also available in a simple form in this [s
  - [Message chain](mpi/message-chain)
  - [Non-blocking communication](mpi/non-blocking)
  - [Collective operations](mpi/collectives)
+
+### Dask
+
+ - [Delayed](dask/01_dask.delayed.ipynb)
+ - [Understanding 'Lazy'](dask/01x_lazy.ipynb)
+ - [Bags](dask/02_bag.ipynb)
+ - [Arrays](dask/03_array.ipynb)
+ - [Dataframe](dask/04_dataframe.ipynb)
+ - [Distributed mode](dask/05_distributed.ipynb)
+ - [Distributed advanced](dask/06_distributed_advanced.ipynb)
+ - [Storage optimization](dask/07_dataframe_storage.ipynb)
+ - [Machine Learning](dask/08_machine_learning.ipynb)
 
 ### Bonus exercises
 
