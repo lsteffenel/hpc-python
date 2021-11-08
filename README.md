@@ -4,7 +4,7 @@ This binder image includes several exercices from the CSC course "Python in High
 
 Also, it includes material from a Dask tutorial given at SciPy 2020 conference.
 
-## NOTE : Exercices in "**bold**" are suggestions to start
+## NOTE : Exercices with "-->" are suggestions to start
 
 ## Exercises
 
@@ -36,7 +36,7 @@ Also, it includes material from a Dask tutorial given at SciPy 2020 conference.
 
 ### Performance analysis
 
- - **[Using cProfile](performance/cprofile)**
+ - **[--> Using cProfile](performance/cprofile)**
 
 ### Multiprocessing
 
@@ -45,20 +45,20 @@ Also, it includes material from a Dask tutorial given at SciPy 2020 conference.
 
 ### Parallel programming with mpi4py
 
- - **[Hello World](mpi/hello-world)**
+ - **[--> Hello World](mpi/hello-world)**
  - [Simple message exchange](mpi/message-exchange)
  - [Message chain](mpi/message-chain)
- - **[Non-blocking communication](mpi/non-blocking)**
- - **[Collective operations](mpi/collectives)**
+ - **[--> Non-blocking communication](mpi/non-blocking)**
+ - **[--> Collective operations](mpi/collectives)**
 
 ### Dask
 
- - **[Delayed](dask/01_dask.delayed.ipynb)**
- - **[Understanding 'Lazy'](dask/01x_lazy.ipynb)**
+ - **[--> Delayed](dask/01_dask.delayed.ipynb)**
+ - [Understanding 'Lazy'](dask/01x_lazy.ipynb)
  - [Bags](dask/02_bag.ipynb)
  - [Arrays](dask/03_array.ipynb)
- - **[Dataframe](dask/04_dataframe.ipynb)**
- - **[Distributed mode](dask/05_distributed.ipynb)**
+ - **[--> Dataframe](dask/04_dataframe.ipynb)**
+ - **[--> Distributed mode](dask/05_distributed.ipynb)**
  - [Distributed advanced](dask/06_distributed_advanced.ipynb)
  - [Storage optimization](dask/07_dataframe_storage.ipynb)
  - [Machine Learning](dask/08_machine_learning.ipynb)
